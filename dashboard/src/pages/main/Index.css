@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    background-color: #CAD2C5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set container height to full viewport height */
+  }
+  
+  .question {
+    font-size: 50px;
+    color:;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background-color:#84a98c;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #cad2cf;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+
+  .card:hover {
+    transform: translateY(-5px); /* Add hover effect by translating card upward */
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    border: none;
+    background-color: #52796F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2f3e46;
+  }

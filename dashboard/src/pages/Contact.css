@@ -1,0 +1,29 @@
+
+.contact-us-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
