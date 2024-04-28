@@ -1,0 +1,65 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #cad2c5;
+  }
+  
+  .head{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: #2f3e46;
+  }
+  .welcome{
+    font-size: 80px;
+    color: #2f3e46;
+  }
+
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    color: #2f3e46;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-btn {
+    padding: 10px 20px;
+    background-color: #354f52;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #2f3e46;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #84a98c;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    font-size: larger;
+  }
+  
+  .logo {
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+  }
+  
+  .brand {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 35px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+   
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-family: "Monaco";
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #2f3e46;
+    text-decoration: underline;
+  }
+  
