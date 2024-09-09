@@ -8,7 +8,7 @@
  for curing the disease and list of medical shops where user can get the medicines.
  Simple UI helps User to find the information required. More information about
  a disease, symptoms and medical shops can be added by simply adding entries
- in the Database.
+ in  Database.
 
 
 ## Installation
